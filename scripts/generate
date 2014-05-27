@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/overviewer.py --config=/etc/overviewer.conf > /data/logs/overviewer.log 2>&1

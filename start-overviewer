@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -d -v /var/lib/minecraft:/data kennon/overviewer /start
