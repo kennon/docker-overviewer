@@ -3,7 +3,8 @@
 if [ ! -f /data/minecraft_client.jar ]
 then
     cd /data
-    curl https://s3.amazonaws.com/Minecraft.Download/versions/1.7.9/1.7.9.jar -o /data/minecraft_client.jar
+    cp /etc/overviewer.conf ./
+    curl https://s3.amazonaws.com/Minecraft.Download/versions/1.8.9/1.8.9.jar -o /data/minecraft_client.jar
 fi
 
 cron -f
