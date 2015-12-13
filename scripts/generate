@@ -1,2 +1,2 @@
 #!/bin/sh
-/usr/bin/overviewer.py --config=/etc/overviewer.conf --genpoi > /data/logs/overviewer.log 2>&1
+/usr/bin/overviewer.py --config=/data/overviewer.conf --genpoi > /data/logs/overviewer.log 2>&1
