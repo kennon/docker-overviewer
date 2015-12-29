@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -i -t -v=/var/lib/minecraft:/data kennon/overviewer /bin/bash
+docker run -it --rm -v=/var/lib/minecraft:/data kennon/overviewer /bin/bash

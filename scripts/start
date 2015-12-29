@@ -1,9 +1,12 @@
 #!/bin/bash
 
+if [ ! -f /data/overviewer.conf ]
+then
+  cp /etc/overviewer.conf /data/
+fi
+
 if [ ! -f /data/minecraft_client.jar ]
 then
-    cd /data
-    cp /etc/overviewer.conf ./
     curl https://s3.amazonaws.com/Minecraft.Download/versions/1.8.9/1.8.9.jar -o /data/minecraft_client.jar
 fi
 

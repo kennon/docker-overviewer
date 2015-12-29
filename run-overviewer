@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -v /var/lib/minecraft:/data kennon/overviewer /generate
+docker run -it --rm -v /var/lib/minecraft:/data kennon/overviewer /generate
