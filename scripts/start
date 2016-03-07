@@ -7,7 +7,7 @@ fi
 
 if [ ! -f /data/minecraft_client.jar ]
 then
-    curl https://s3.amazonaws.com/Minecraft.Download/versions/1.8.9/1.8.9.jar -o /data/minecraft_client.jar
+    curl https://s3.amazonaws.com/Minecraft.Download/versions/1.9/1.9.jar -o /data/minecraft_client.jar
 fi
 
 cron -f

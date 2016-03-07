@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -d -v /home/minecraft/data:/data --name overviewer kennon/overviewer
+docker run -d --restart-always -v /data:/data --name overviewer kennon/overviewer
