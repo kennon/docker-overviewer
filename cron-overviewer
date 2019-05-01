@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -t --rm -v /data/minecraft:/data kennon/overviewer /generate
